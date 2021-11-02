@@ -9,7 +9,7 @@
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
               <li class="nav-item">
-                <a class="nav-link" href="../pages/home.php"><i class="fas fa-home"></i>
+                <a class="nav-link" href="../pages/index.php"><i class="fas fa-home"></i>
                   Home</a>
               </li>
               <li class="nav-item">
