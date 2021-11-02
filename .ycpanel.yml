@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kucn3884/public_html/
+    - /bin/cp -R views $DEPLOYPATH
+    - /bin/cp -R util $DEPLOYPATH
+    - /bin/cp -R structures $DEPLOYPATH
+    - /bin/cp -R node_modules $DEPLOYPATH
+    - /bin/cp -R events $DEPLOYPATH
+    - /bin/cp -R commands $DEPLOYPATH
+    - /bin/cp -R api $DEPLOYPATH
+    - /bin/cp botconfig.js $DEPLOYPATH
+    - /bin/cp guild.json $DEPLOYPATH
+    - /bin/cp index.js $DEPLOYPATH
+    - /bin/cp Logs.log $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
