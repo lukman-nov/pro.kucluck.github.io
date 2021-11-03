@@ -14,7 +14,7 @@ module.exports = {
   aliases: ["about", "stats", "info"],
   /**
    *
-   * @param {import("../structures/DiscordMusicBot")} client
+   * @param {import("../structures/KucluckProMusik")} client
    * @param {import("discord.js").Message} message
    * @param {string[]} args
    * @param {*} param3

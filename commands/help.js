@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "help",
-  category: "FYI",
+  category: "information",
   description: "Information about the bot",
   usage: "[command]",
   permissions: {
@@ -25,11 +25,11 @@ module.exports = {
       .setColor(client.botconfig.EmbedColor)
       .setDescription(`Aku adalah bot serba guna yang akan membantu mengembangkan dan memudahkan channel Discord kalian. \n \n **Support:** [**kucluck.com/support**](${client.botconfig.SupportServer}) \n **Website:** [**pro.kucluck.com**](${client.botconfig.Website})\n \n
       Gunakan *${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}help <command>* untuk melihat detail command.`)
-      .addField('🇮 **Information**', '`!!help`, `!!invite`, `!!stats`')
+      .addField('🇮 **Information**', '`!!help`, `!!info`, `!!premium`')
       .addField('💎 **Premium**', '`!!bassboost`,`!!bump`,`!!skipto`,`!!savesong`,`!!loopqueue`,`!!lyrics`,`!!volume`')
-      .addField('🎵 **Music**','`!!clear`,`!!disconnect`,`!!loopsong`,`!!move`,`!!nowplaying`,`!!pause`,`!!play`,`!!queue`,`!!remove`,`!!resume`,`!!search`,`!!seek`,`!!shuffle`,`!!skip`,')
-      .addField('🛠️ **Admin**', '`!config`')
-      .addField('👻 **Fun**', '`!youtube`')
+      .addField('🎵 **Music**','`!!clear`, `!!join`,`!!disconnect`,`!!loopsong`,`!!move`,`!!nowplaying`,`!!pause`,`!!play`,`!!queue`,`!!remove`,`!!resume`,`!!search`,`!!seek`,`!!shuffle`,`!!skip`,')
+      .addField('🛠️ **Admin**', '`!!config`')
+      .addField('👻 **Fun**', '`!!youtube`, `!!ava`')
       .setTimestamp()
       .setFooter(`Kucluck Pro v${require("../package.json").version}`);
 

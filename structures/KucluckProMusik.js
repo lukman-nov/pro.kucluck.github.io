@@ -17,7 +17,7 @@ const facebook = require("erela.js-facebook");
 require("discordjs-activity"); //Epic Package, For more details: https://www.npmjs.com/package/discordjs-activity
 require("./EpicPlayer"); //idk why im doing but i wanna learn something new so...
 
-class DiscordMusicBot extends Client {
+class KucluckProMusik extends Client {
   constructor(props) {
     super(props);
 
@@ -272,4 +272,4 @@ class DiscordMusicBot extends Client {
   }
 }
 
-module.exports = DiscordMusicBot;
+module.exports = KucluckProMusik;

@@ -1,8 +1,8 @@
-const { DiscordMusicBot } = require("../structures/KucluckProMusik");
+const { KucluckProMusik } = require("../structures/KucluckProMusik");
 const { VoiceState, MessageEmbed } = require("discord.js");
 /**
  *
- * @param {DiscordMusicBot} client
+ * @param {KucluckProMusik} client
  * @param {VoiceState} oldState
  * @param {VoiceState} newState
  * @returns {Promise<void>}
@@ -74,7 +74,7 @@ module.exports = async (client, oldState, newState) => {
         let emb = new MessageEmbed()
           .setAuthor(`Paused!`, client.botconfig.IconURL)
           .setColor(client.botconfig.EmbedColor)
-          .setDescription(`Pemain telah dijeda karena semua orang pergi :broken_heart: `);
+          .setDescription(`Lagu yang dimainkan telah dijeda karena semua orang pergi :broken_heart: `);
         await client.channels.cache.get(player.textChannel).send(emb);
       }
       break;

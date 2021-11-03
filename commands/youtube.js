@@ -11,7 +11,7 @@ module.exports = {
   aliases: ["yt", "nobar"],
   /**
    *
-   * @param {import("../structures/DiscordMusicBot")} client
+   * @param {import("../structures/KucluckProMusik")} client
    * @param {require("discord.js").Message} message
    * @param {string[]} args
    * @param {*} param3

@@ -6,7 +6,7 @@ const _ = require("lodash");
 module.exports = {
   name: "lyrics",
   category: "musik",
-  description: "Shows the lyrics of the song searched",
+  description: "Menampilkan lirik lagu",
   usage: "[Song Name]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
@@ -15,7 +15,7 @@ module.exports = {
   aliases: ["ly","liriklagu", "lirik"],
   /**
    *
-   * @param {import("../structures/DiscordMusicBot")} client
+   * @param {import("../structures/KucluckProMusik")} client
    * @param {import("discord.js").Message} message
    * @param {string[]} args
    * @param {*} param3

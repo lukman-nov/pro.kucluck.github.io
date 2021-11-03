@@ -3,7 +3,7 @@ const _ = require("lodash");
 const prettyMilliseconds = require("pretty-ms");
 
 module.exports = {
-  name: "playlist",
+  name: "queue",
   category: "musik",
   description: "Melihat semua lagu di dalam playlist",
   usage: "",
@@ -11,10 +11,10 @@ module.exports = {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
     member: [],
   },
-  aliases: ["q", "queue", "pl", "antrian"],
+  aliases: ["q", "pl", "antrian", "playlist"],
   /**
    *
-   * @param {import("../structures/DiscordMusicBot")} client
+   * @param {import("../structures/KucluckProMusik")} client
    * @param {import("discord.js").Message} message
    * @param {string[]} args
    * @param {*} param3

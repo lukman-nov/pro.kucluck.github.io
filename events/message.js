@@ -1,6 +1,6 @@
 /**
  *
- * @param {require("../structures/DiscordMusicBot")} client
+ * @param {require("../structures/KucluckProMusik")} client
  * @param {require("discord.js").Message} message
  * @returns {void} aka: nothing ;-;
  */

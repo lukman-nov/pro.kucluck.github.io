@@ -1,5 +1,5 @@
-const DiscordMusicBot = require("./structures/KucluckProMusik");
-const client = new DiscordMusicBot();
+const KucluckProMusik = require("./structures/KucluckProMusik");
+const client = new KucluckProMusik();
 
 client.build();
 

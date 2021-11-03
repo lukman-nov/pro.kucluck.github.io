@@ -2,8 +2,8 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "avatar",
-  category: "musik",
-  description: "Berhenti memainkan musik dan leave voice channel",
+  category: "fun",
+  description: "Menampilkan avatar",
   usage: "",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
@@ -12,7 +12,7 @@ module.exports = {
   aliases: ["ava", "foto", "photo"],
   /**
    *
-   * @param {import("../structures/DiscordMusicBot")} client
+   * @param {import("../structures/KucluckProMusik")} client
    * @param {import("discord.js").Message} message
    * @param {string[]} args
    * @param {*} param3
