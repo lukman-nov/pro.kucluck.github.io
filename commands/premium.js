@@ -7,7 +7,7 @@ const {
 
 module.exports = {
     name: "premium",
-    category: "FYI",
+    category: "information",
     description: "Information about the bot",
     usage: "[command]",
     permissions: {

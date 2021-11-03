@@ -3,6 +3,7 @@ const prettyMilliseconds = require("pretty-ms");
 
 module.exports = {
   name: "savesong",
+  category: "musik",
   description: "Menyimpan URL lagu yang dimainkan saat ini ke DM kamu.",
   usage: "",
   permissions: {

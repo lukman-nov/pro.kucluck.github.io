@@ -3,6 +3,7 @@ const { TrackUtils } = require("erela.js");
 
 module.exports = {
   name: "volume",
+  category: "musik",
   description: "Periksa atau ubah volume saat ini",
   usage: "<volume>",
   permissions: {

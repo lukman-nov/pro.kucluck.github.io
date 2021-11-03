@@ -2,6 +2,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "youtube",
+  category: "musik",
   description: "Memulai sesi nonton bareng di Youtube",
   usage: "",
   permissions: {

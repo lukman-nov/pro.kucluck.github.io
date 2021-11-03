@@ -3,6 +3,7 @@ const { TrackUtils } = require("erela.js");
 
 module.exports = {
   name: "seek",
+  category: "musik",
   description: "Mempercepat durasi lagu ke waktu yang di inginkan",
   usage: "<waktu s/m/h>",
   permissions: {

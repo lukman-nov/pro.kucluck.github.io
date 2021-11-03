@@ -3,6 +3,7 @@ const { TrackUtils } = require("erela.js");
 
 module.exports = {
   name: "skip",
+  category: "musik",
   description: "Skip the current song",
   usage: "",
   permissions: {

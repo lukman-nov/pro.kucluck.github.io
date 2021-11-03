@@ -3,6 +3,7 @@ const { TrackUtils, Player } = require("erela.js");
 
 module.exports = {
   name: "skipto",
+  category: "musik",
   description: `Melewatkan banyak lagu di playlist`,
   usage: "<angka>",
   permissions: {

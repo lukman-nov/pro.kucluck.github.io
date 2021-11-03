@@ -2,6 +2,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "shuffle",
+  category: "musik",
   description: "Mengacak playlist",
   usage: "",
   permissions: {

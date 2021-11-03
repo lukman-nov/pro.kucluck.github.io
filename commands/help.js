@@ -4,7 +4,7 @@ const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: "help",
   category: "information",
-  description: "Information about the bot",
+  description: "Information tentang bot",
   usage: "[command]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
@@ -27,7 +27,7 @@ module.exports = {
       Gunakan *${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}help <command>* untuk melihat detail command.`)
       .addField('🇮 **Information**', '`!!help`, `!!info`, `!!premium`')
       .addField('💎 **Premium**', '`!!bassboost`,`!!bump`,`!!skipto`,`!!savesong`,`!!loopqueue`,`!!lyrics`,`!!volume`')
-      .addField('🎵 **Music**','`!!clear`, `!!join`,`!!disconnect`,`!!loopsong`,`!!move`,`!!nowplaying`,`!!pause`,`!!play`,`!!queue`,`!!remove`,`!!resume`,`!!search`,`!!seek`,`!!shuffle`,`!!skip`,')
+      .addField('🎵 **Music**','`!!clear`,`!!join`,`!!disconnect`,`!!loopsong`,`!!move`,`!!nowplaying`,`!!pause`,`!!play`,`!!queue`,`!!remove`,`!!resume`,`!!search`,`!!seek`,`!!shuffle`,`!!skip`')
       .addField('🛠️ **Admin**', '`!!config`')
       .addField('👻 **Fun**', '`!!youtube`, `!!ava`')
       .setTimestamp()
@@ -48,7 +48,8 @@ module.exports = {
         Prefix: ${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}`)
         .setColor("GREEN")
         //.addField("Name", cmd.name, true)
-        .addField("Menggunakan", `\`${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}${cmd.name}${cmd.usage ? " " + cmd.usage : ""}\``,true)
+        .addField("Kategori", `\`${cmd.category}\``, true)
+        .addField("Command", `\`${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}${cmd.name}${cmd.usage ? " " + cmd.usage : ""}\``,true)
         .addField("Alias", `\`${cmd.aliases.join(", ")}\``, true)
         .addField("Permissions", "Member: " + cmd.permissions.member.join(", ") + "\nBot: " + cmd.permissions.channel.join(", "), true)
         .setFooter(`Kucluck Pro v${require("../package.json").version}`);

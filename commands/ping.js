@@ -5,6 +5,7 @@ const moment = require("moment");
 
 module.exports = {
   name: "ping",
+  category: "information",
   description: "Dapatkan informasi tentang bot",
   usage: "",
   permissions: {

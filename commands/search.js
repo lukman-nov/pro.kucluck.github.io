@@ -5,6 +5,7 @@ const prettyMilliseconds = require("pretty-ms");
 
 module.exports = {
   name: "search",
+  category: "musik",
   description: "Menampilkan hasil lagu berdasarkan kata kunci pencarian",
   usage: "[song]",
   permissions: {

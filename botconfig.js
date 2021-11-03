@@ -3,12 +3,12 @@ const { description } = require("./commands/help");
 module.exports = {
   BotName: "Kucluck Pro",
   BotLogo: "https://pro.kucluck.com/img/Logo%20pro%20small.png",
-  Token: "OTAxNDQxODMwNjQwNTU0MDA0.YXP7IA.kI_wvpI-LQ9IaaFCRrM8bNIAGdI", //Discord Bot Token
-  ClientID: "901441830640554004", //Discord Client ID
-  ClientSecret: "Ot27tkg5Z4IRQ24WOVYwFK1Fz_7pzpSN", //Discord Client Secret
+  Token: "OTAyMTM4NTA5NTg5MDkwMzE0.YXaD9Q.zMqox3fSqUMvB0nE_eqLlhLHE84", //Discord Bot Token
+  ClientID: "902138509589090314", //Discord Client ID
+  ClientSecret: "Op6Vs4TVtG7vzQDkHgd18U21NIPUUHn2", //Discord Client Secret
   Admins: ["377636455016824834"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
-  DefaultPrefix: "!!", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: ".", //Default prefix, Server Admins can change the prefix
   Port: 4000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/BuACxn4XUw", //Support Server Link
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
